@@ -25,7 +25,7 @@ print("the number of forks, too,  is going to vary throughout time, as people wi
 let yearCreated = 2018
 print("the year the repository was created is immutable because once it was created, it is documented and never changed afterwards.")
 let monthCreated = 8
-print("the motn the repository was created, is immutable too, because once it was created, it is documented and never changed afterwards.")
+print("the month the repository was created, is immutable too, because once it was created, it is documented and never changed afterwards.")
 let dayCreated = "Monday"
 print("the day the repository was created is immutable, too,  because once it was created, it is documented and never changed afterwards.")
 /*:
