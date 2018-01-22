@@ -25,13 +25,13 @@ import Foundation
 // Transformation parameters
 let verticalTranslation = 5.0
 let horizontalTranslation = 2.0
-let stretchValue = 0.5
+let verticalScaleFactor = 0.5
 
 // Set the independent variable value
-let input = 100.0
+let independentVariable = 100.0
 
 // Calculate the dependent variable value
-let y = stretchValue * pow(input - horizontalTranslation, 2) + verticalTranslation
+let dependentVariable = verticalScaleFactor * pow(independentVariable - horizontalTranslation, 2) + verticalTranslation
 
 /*:
  In other words:
