@@ -23,22 +23,22 @@ import Foundation
 // Revise code below to answer question 1
 
 // Transformation parameters
-let updown = 5.0
-let lr = 2.0
-let stretchvalue = 0.5
+let verticalTranslation = 5.0
+let horizontalTranslation = 2.0
+let stretchValue = 0.5
 
 // Set the independent variable value
 let input = 100.0
 
 // Calculate the dependent variable value
-let y = stretchvalue * pow(input - lr, 2) + updown
+let y = stretchValue * pow(input - horizontalTranslation, 2) + verticalTranslation
 
 /*:
  In other words:
  
  ![equation](equation.png "Equation")
  */
-
+//The value of y if x = 100 is 4807.
 /*:
  - callout(Shortcut): The **Edit All in Scope** menu command is useful when renaming variables – place your cursor within the variable name and then invoke the menu command.
  
