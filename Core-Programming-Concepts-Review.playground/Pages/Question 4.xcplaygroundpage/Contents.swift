@@ -21,7 +21,13 @@
  
  */
 // Answer question 4 below
-
+var Diners : Int
+var SaladBars : Double
+var soup : Double
+var mainCourse : Double
+var pizzaOven : Double
+let date : String
+let time : String
 /*:
  ## Now share your understanding
  
