@@ -18,7 +18,16 @@
  
  */
 // Answer question 2 below
-
+var numberOfCommits = 10
+print("the number of commits is going to vary throughout time, as people will commit to it")
+var numberOfForks = 13
+print("the number of forks, too,  is going to vary throughout time, as people will fork it")
+let yearCreated = 2018
+print("the year the repository was created is immutable because once it was created, it is documented and never changed afterwards.")
+let monthCreated = 8
+print("the motn the repository was created, is immutable too, because once it was created, it is documented and never changed afterwards.")
+let dayCreated = "Monday"
+print("the day the repository was created is immutable, too,  because once it was created, it is documented and never changed afterwards.")
 /*:
  ## Now share your understanding
  
