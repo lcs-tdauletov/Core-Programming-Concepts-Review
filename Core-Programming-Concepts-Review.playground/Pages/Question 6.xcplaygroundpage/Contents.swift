@@ -18,15 +18,15 @@ let currentHeartRate = 128
 
 // Answer question 6 below
 //Heart rates are here and this comment is made for the same purpose
-if currentHeartRate > 100 && currentHeartRate < 121 {
+if currentHeartRate >= 100 && currentHeartRate <= 121 {
     print("You are in the Very Light zone. Activity in this zone helps with recovery.")
-} else if currentHeartRate > 121 && currentHeartRate < 141 {
+} else if currentHeartRate >= 121 && currentHeartRate <= 141 {
     print("You are in the Light zone. Activity in this zone helps improve basice endurance and fat burning.")
-} else if currentHeartRate > 141 && currentHeartRate < 161 {
+} else if currentHeartRate >= 141 && currentHeartRate <= 161 {
     print("You are in the Moderate zone. Acitivity in this zone helps improve aerobic fitness")
-} else if currentHeartRate > 161 && currentHeartRate < 181 {
+} else if currentHeartRate >= 161 && currentHeartRate <= 181 {
     print("You are in the Hard zone. Activity in this zone increases maximum performance capacity for shorter sessions.")
-} else if currentHeartRate > 181 && currentHeartRate < 200 {
+} else if currentHeartRate >= 181 && currentHeartRate <= 200 {
     print("You are in the Maxumum zone. Activity in his zone helpts fit athletes develop speed.")
 } else if currentHeartRate > 200 {
     print("Think about your kids before you continue with this.")
