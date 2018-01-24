@@ -15,6 +15,7 @@
  */
 // Answer question 3 below
 var piggyBank = 0
+//We'll use the compound assignment operator to perform changes
 piggyBank += 10
 piggyBank += 20
 piggyBank /= 2
