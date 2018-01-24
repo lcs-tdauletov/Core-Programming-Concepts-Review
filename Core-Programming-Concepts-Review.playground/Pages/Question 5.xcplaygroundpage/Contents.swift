@@ -23,6 +23,8 @@ let isRaining = true
 let isSunny = true
 
 // Answer question 5 below
+//For the same reason I made a comment on the fourth page I'm making this one.
+
 let isNiceWeather = !isRaining && isSunny  && temperatureInCelsius > 20
 
 if isNiceWeather {
