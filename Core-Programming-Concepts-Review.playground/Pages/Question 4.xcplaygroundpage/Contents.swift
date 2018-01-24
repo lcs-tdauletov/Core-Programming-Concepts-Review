@@ -21,6 +21,7 @@
  
  */
 // Answer question 4 below
+//I commited from the last page, but github didn't receive it and that's why I'm making this redundant comment to show some changes to github.
 let Diners : Int = 4
 let SaladBars : Double = 10.0
 let soup : Double = 10.0
