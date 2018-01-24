@@ -18,6 +18,10 @@ let currentHeartRate = 128
 
 // Answer question 6 below
 //Heart rates are here and this comment is made for the same purpose
+
+
+
+//This comment will make you smarter than 100% of the universe but I cannot guarantee it.
 if currentHeartRate >= 100 && currentHeartRate <= 121 {
     print("You are in the Very Light zone. Activity in this zone helps with recovery.")
 } else if currentHeartRate >= 121 && currentHeartRate <= 141 {
@@ -30,7 +34,7 @@ if currentHeartRate >= 100 && currentHeartRate <= 121 {
     print("You are in the Maxumum zone. Activity in his zone helpts fit athletes develop speed.")
 } else if currentHeartRate > 200 {
     print("Think about your kids before you continue with this.")
-}
+} 
 /*:
  ## Now share your understanding
  
