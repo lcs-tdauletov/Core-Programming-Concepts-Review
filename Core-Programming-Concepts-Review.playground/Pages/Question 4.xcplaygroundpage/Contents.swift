@@ -21,13 +21,13 @@
  
  */
 // Answer question 4 below
-var Diners : Int
-var SaladBars : Double
-var soup : Double
-var mainCourse : Double
-var pizzaOven : Double
-let date : String
-let time : String
+let Diners : Int = 4
+let SaladBars : Double = 10.0
+let soup : Double = 10.0
+let mainCourse : Double = 10.0
+let pizzaOven : Double = 10.0
+let date : String = "Thursday, January 18, 2018"
+let time : String = "11:30 AM to 1:00 PM"
 /*:
  ## Now share your understanding
  
